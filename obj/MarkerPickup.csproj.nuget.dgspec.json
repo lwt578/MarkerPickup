@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\MarkerKey\\MarkerKey.csproj": {}
+    "D:\\Desktop\\鸭科夫mod代码和参考\\我的鸭科夫mod\\MarkerPickup\\MarkerPickup.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\MarkerKey\\MarkerKey.csproj": {
+    "D:\\Desktop\\鸭科夫mod代码和参考\\我的鸭科夫mod\\MarkerPickup\\MarkerPickup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\MarkerKey\\MarkerKey.csproj",
-        "projectName": "MarkerKey",
-        "projectPath": "D:\\Desktop\\MarkerKey\\MarkerKey.csproj",
+        "projectUniqueName": "D:\\Desktop\\鸭科夫mod代码和参考\\我的鸭科夫mod\\MarkerPickup\\MarkerPickup.csproj",
+        "projectName": "MarkerPickup",
+        "projectPath": "D:\\Desktop\\鸭科夫mod代码和参考\\我的鸭科夫mod\\MarkerPickup\\MarkerPickup.csproj",
         "packagesPath": "C:\\Users\\think book\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\MarkerKey\\obj\\",
+        "outputPath": "D:\\Desktop\\鸭科夫mod代码和参考\\我的鸭科夫mod\\MarkerPickup\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\think book\\AppData\\Roaming\\NuGet\\NuGet.Config",

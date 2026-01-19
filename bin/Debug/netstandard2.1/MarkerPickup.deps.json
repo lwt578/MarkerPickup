@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "MarkerKey/1.0.0": {
+      "MarkerPickup/1.0.0": {
         "dependencies": {
           "ItemStatsSystem": "0.0.0.0",
           "TeamSoda.Duckov.Core": "0.0.0.0",
@@ -119,7 +119,7 @@
           "UnityEngine.XRModule": "0.0.0.0"
         },
         "runtime": {
-          "MarkerKey.dll": {}
+          "MarkerPickup.dll": {}
         }
       },
       "ItemStatsSystem/0.0.0.0": {
@@ -1285,7 +1285,7 @@
     }
   },
   "libraries": {
-    "MarkerKey/1.0.0": {
+    "MarkerPickup/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

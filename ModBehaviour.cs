@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.TextCore.Text;
 
 
-namespace MarkerKey
+namespace MarkerPickup
 {
     public class ModBehaviour : Duckov.Modding.ModBehaviour
     {
@@ -161,7 +161,9 @@ namespace MarkerKey
                 if (pickup == null|| pickup.ItemAgent?.Item == null) continue;
                 
                 var item = pickup.ItemAgent.Item;
+                float value = item.GetTotalRawValue();
 
+                /*
                 // 找出门卡、钥匙、船票等重要物品
                 if (item.name.Contains("JLAB", StringComparison.OrdinalIgnoreCase) ||
                     item.name.Contains("Key", StringComparison.OrdinalIgnoreCase) ||
@@ -169,7 +171,10 @@ namespace MarkerKey
                     item.name.Contains("Ticket", StringComparison.OrdinalIgnoreCase))
  
                     AddOrUpdateMarker(pickup);
-                
+                if (value >= 1000f) // 价值超过500的物品
+                */
+                    AddOrUpdateMarker(pickup);
+
             }
         }
 
@@ -206,7 +211,7 @@ namespace MarkerKey
             }
 
             var poi = markerObject.AddComponent<SimplePointOfInterest>();
-            var color = Color.yellow; //default color
+            var color = new Color(1f, 0.6f, 0f, 1f); //default color
             
 
             marker = new KeyMarker
