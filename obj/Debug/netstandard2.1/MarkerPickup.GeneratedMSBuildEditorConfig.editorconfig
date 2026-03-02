@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = MarkerPickup
-build_property.ProjectDir = D:\Desktop\鸭科夫mod代码和参考\我的鸭科夫mod\MarkerPickup\
+build_property.ProjectDir = E:\逃离鸭科夫mod\MarkerPickup\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

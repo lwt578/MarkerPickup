@@ -7,7 +7,6 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.TextCore.Text;
 
 
 namespace MarkerPickup
@@ -142,9 +141,8 @@ namespace MarkerPickup
 
         private bool IsPickupPicked(InteractablePickup pickup)
         {
-            Debug.Log("检查是否已拾取");
+
             var item = pickup.ItemAgent.Item;
-            Debug.Log($"物品{item.DisplayName}的父对象: {item.transform.parent}");//打印父对象
             if (item.transform.parent == null) 
                 return false;
             else
@@ -180,7 +178,7 @@ namespace MarkerPickup
 
         private void AddOrUpdateMarker(InteractablePickup pickup)
         {
-            Debug.Log("添加或更新标记");
+            //Debug.Log("添加或更新标记");
 
             if (!IsPickupValid(pickup))
                 return;
@@ -265,8 +263,28 @@ namespace MarkerPickup
             if (marker.MarkerObject.transform.position == marker.Pickup.transform.position)
                 return;
 
-            else
+            else 
+            {
+                PointsOfInterests.Unregister(marker.Poi);
                 marker.MarkerObject.transform.position = marker.Pickup.transform.position;
+
+                var poi = marker.MarkerObject.AddComponent<SimplePointOfInterest>();
+                var icon = MapMarkerManager.Icons[0];
+
+                if (icon != null)
+                {
+
+                    marker.Poi.Color = marker.Color;
+                    marker.Poi.ShadowColor = Color.clear;
+
+                    marker.Poi.Setup(icon, marker.DisplayName, followActiveScene: true);
+                    marker.Poi.HideIcon = false;
+
+                }
+
+
+            }
+                
 
             Debug.Log($"更新标记位置: {marker.DisplayName} 位置: {marker.MarkerObject.transform.position}");
 

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Desktop\\\u9E2D\u79D1\u592Bmod\u4EE3\u7801\u548C\u53C2\u8003\\\u6211\u7684\u9E2D\u79D1\u592Bmod\\MarkerPickup\\",
+  "WorkspaceRootPath": "E:\\\u9003\u79BB\u9E2D\u79D1\u592Bmod\\MarkerPickup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7205E09B-77E6-EBC9-0314-A0F7E43BD49C}|MarkerPickup.csproj|d:\\desktop\\\u9E2D\u79D1\u592Bmod\u4EE3\u7801\u548C\u53C2\u8003\\\u6211\u7684\u9E2D\u79D1\u592Bmod\\markerpickup\\modbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7205E09B-77E6-EBC9-0314-A0F7E43BD49C}|MarkerPickup.csproj|e:\\\u9003\u79BB\u9E2D\u79D1\u592Bmod\\markerpickup\\modbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7205E09B-77E6-EBC9-0314-A0F7E43BD49C}|MarkerPickup.csproj|solutionrelative:modbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,13 +28,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ModBehaviour.cs",
-              "DocumentMoniker": "D:\\Desktop\\\u9E2D\u79D1\u592Bmod\u4EE3\u7801\u548C\u53C2\u8003\\\u6211\u7684\u9E2D\u79D1\u592Bmod\\MarkerPickup\\ModBehaviour.cs",
+              "DocumentMoniker": "E:\\\u9003\u79BB\u9E2D\u79D1\u592Bmod\\MarkerPickup\\ModBehaviour.cs",
               "RelativeDocumentMoniker": "ModBehaviour.cs",
-              "ToolTip": "D:\\Desktop\\\u9E2D\u79D1\u592Bmod\u4EE3\u7801\u548C\u53C2\u8003\\\u6211\u7684\u9E2D\u79D1\u592Bmod\\MarkerPickup\\ModBehaviour.cs",
-              "RelativeToolTip": "ModBehaviour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\\u9003\u79BB\u9E2D\u79D1\u592Bmod\\MarkerPickup\\ModBehaviour.cs*",
+              "RelativeToolTip": "ModBehaviour.cs*",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAwLQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:20:40.757Z",
+              "WhenOpened": "2026-02-28T13:57:31.508Z",
               "EditorCaption": ""
             }
           ]
