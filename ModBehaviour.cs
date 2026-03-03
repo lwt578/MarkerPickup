@@ -268,12 +268,11 @@ namespace MarkerPickup
                 PointsOfInterests.Unregister(marker.Poi);
                 marker.MarkerObject.transform.position = marker.Pickup.transform.position;
 
-                var poi = marker.MarkerObject.AddComponent<SimplePointOfInterest>();
+                marker.Poi = marker.MarkerObject.AddComponent<SimplePointOfInterest>();
                 var icon = MapMarkerManager.Icons[0];
 
                 if (icon != null)
                 {
-
                     marker.Poi.Color = marker.Color;
                     marker.Poi.ShadowColor = Color.clear;
 

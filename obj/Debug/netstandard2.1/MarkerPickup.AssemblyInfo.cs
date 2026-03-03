@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarkerPickup")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66c8250bb306fa3c70604398581e33c16a03fdcb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3eb1182545d3b2c9e1b6c647902ad32182380a83")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarkerPickup")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarkerPickup")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
